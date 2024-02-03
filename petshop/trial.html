@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> One stop pet shop </title>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="triall.css">
+    <title> One stop pet shop </title>
+</head>
+<body>
+    <header>
+        <nav>
             <div id="logo">
                 <img src="https://icons.iconarchive.com/icons/icons8/windows-8/24/Animals-Dog-House-icon.png" width="24" height="24">
-
                 De'Fidel <br> Kennel
             </div>
             <ul class="navigation">
@@ -27,15 +35,22 @@
                 <li>
                     <a href="#blog">Blog</a>
                 </li>
+                
+                <li>
+                    <a href="#location">Location</a>
+                </li>
                 <li>
                     <a href="#contact">Contacts</a>
                 </li>
             </ul>
+
+        </nav>    
+    </header>
             <section id = home>
             <div>
-                <h1>Welcome to Kennel De'Fidel</h1>
+                
                 <div class="image-container">
-                    <img src="kennel.jpg" width="360" height="220">
+                    <img src="dog.png" width="600" height="500">
                     <div class="text-container">
                         <p>At Kennel De'Fidel, we provide top-notch care and accommodation for your beloved pets. Our experienced team is dedicated to ensuring your pets feel at home. </p>
                         <p>We make sure to get you your forever fur baby.</p>
@@ -69,7 +84,7 @@
 
 
             </section>
-            <section id="section">
+            <section id="services">
                 <h1>Our services</h1>
                 <ul class="services">
                     <li class="card-large card-light" id="Rehoming">
@@ -214,8 +229,81 @@
 
                 </ul>
             </section>
+            <section id="blog">
+                
+                <div>
+                    <h1>Blog</h1>
+                    <div class="image-container">
+                        <img src="kennel.jpg" width="360" height="220">
+                        <div class="text-container">
+                            <p>At Kennel De'Fidel, we provide top-notch care and accommodation for your beloved pets. Our experienced team is dedicated to ensuring your pets feel at home. </p>
+                            <p>We make sure to get you your forever fur baby.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="location">
+                <div>
+                    <h1>Location</h1>
+                    <div class="image-container">
+                        <img src="kennel.jpg" width="360" height="220">
+                        <div class="text-container">
+                            <p>We are located in Githurai 45 just 5 minutes drive off thika road  </p>
+                            <p>We are open everyday from 8AM tilL 5PM.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            <section id="contact">
+                <div class="fcf-body">
 
+                    <div id="fcf-form">
+                    <h3 class="fcf-h3">Contact us</h3>
+                
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                        
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Your name</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
+                
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Your email address</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+                
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Your message</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                            </div>
+                        </div>
+                
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                        </div>
+                
+                        <div class="fcf-credit" id="fcf-credit">
+                    
+                        </div>
+                
+                    </form>
+                    </div>
+                
+                </div>
+
+            </section>
+            <footer>
+                <p>&copy; 2024 Your Website. All rights reserved.</p>
+            </footer>
             
-        </header>
+        
     </body>
 </html>
