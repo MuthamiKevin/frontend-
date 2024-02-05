@@ -156,7 +156,7 @@ nav > #logo > span {
 }
 #home {
     padding: 80px 0;
-    background-color: #eae7dc;
+    background-color: #747474;
     color: var(--text-01);
     text-align: center;
 }
@@ -213,7 +213,7 @@ nav > #logo > span {
 }
 #services {
     padding: 80px 0;
-    background-color: var(--light-02);
+    background-color: #bab2b5;
     color: var(--text-01);
     text-align: center;
 }
@@ -311,7 +311,7 @@ ul li {
 
 #breeds {
     padding: 80px 0;
-    background-color: var(--light-02);
+    background-color: #bab2b5;
     color: var(--text-01);
     text-align: center;
 }
@@ -404,3 +404,79 @@ ul li {
 .btn-outline-light:hover {
     background-color: var(--brand-01);
 }
+#contact {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.fcf-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+#fcf-form {
+    flex: 1;
+}
+
+.fcf-form-class {
+    max-width: 500px; /* Adjust the maximum width of the form as needed */
+    margin: auto;
+}
+
+.additional-container {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form elements */
+.fcf-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.fcf-input-group {
+    margin-bottom: 20px;
+}
+
+.fcf-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fcf-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fcf-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the additional container */
+.additional-container p {
+    margin-bottom: 10px;
+}
+
