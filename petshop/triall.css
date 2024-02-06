@@ -429,18 +429,45 @@ ul li {
 }
 
 .fcf-form-class {
-    max-width: 500px; /* Adjust the maximum width of the form as needed */
+    max-width: 700px; /* Adjust the maximum width of the form as needed */
     margin: auto;
 }
 
-.additional-container {
-    flex: 1;
-    background-color: #fff;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px; /* Increased margin for spacing */
+  }
+  
+  .container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container a:hover {
+    text-decoration: underline;
+  }
+  
+  .container .icon {
+    margin-right: 10px; /* Adjust icon spacing */
+    font-size: 22px; /* Adjust icon size */
+  }
+  
 
 /* Style the form elements */
 .fcf-label {
@@ -479,4 +506,7 @@ ul li {
 .additional-container p {
     margin-bottom: 10px;
 }
-
+footer {
+    flex-direction: row;
+    text-align: left;
+}
