@@ -406,8 +406,8 @@ ul li {
 }
 #contact {
     padding: 80px 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #747474;
+    color: white;
 }
 
 .fcf-body {
@@ -421,7 +421,8 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: 1200px;
+    width: 100%; /* Ensure the container spans the full width of its parent */
+    max-width: 100%;
 }
 
 #fcf-form {
@@ -429,7 +430,7 @@ ul li {
 }
 
 .fcf-form-class {
-    max-width: 700px; /* Adjust the maximum width of the form as needed */
+    max-width: 100%; /* Adjust the maximum width of the form as needed */
     margin: auto;
 }
 
@@ -443,13 +444,13 @@ ul li {
   }
   
   .container h2 {
-    color: #333;
+    color: whitesmoke;
     font-size: 24px;
     margin-bottom: 10px;
   }
   
   .container p {
-    color: #666;
+    color: white;
     font-size: 16px;
     margin-bottom: 20px; /* Increased margin for spacing */
   }
@@ -508,5 +509,7 @@ ul li {
 }
 footer {
     flex-direction: row;
-    text-align: left;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
