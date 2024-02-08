@@ -225,18 +225,15 @@ nav > #logo > span {
 }
 
 .services {
-    overflow-x: auto;
-    white-space: nowrap;
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: center; /* Center the cards horizontally */
     gap: 15px; /* Adjust the gap between cards as needed */
 }
 
 .card-large {
-    height: 500px; /* Set a fixed height for the face cards */
-    flex: 0 0 auto;
+    height: 200px; /* Remove fixed height for face cards */
+    width: 400px; /* Set a fixed width for the cards */
     position: relative;
     overflow: hidden;
     box-shadow: var(--card-shadow);
@@ -253,12 +250,11 @@ nav > #logo > span {
     overflow: hidden;
     position: relative;
     border-radius: 12px;
-    height: 100%; /* Fill the entire height of the face cards */
 }
 
 .card-image img {
     width: 100%;
-    height: 100%;
+    height: 200px; /* Set a fixed height for the card images */
     object-fit: cover;
     object-position: center bottom; /* Adjust the object position as needed */
     border-radius: 12px 12px 0 0;
@@ -307,6 +303,7 @@ ul li {
 .btn-outline-light:hover {
     background-color: var(--brand-01);
 }
+
 
 
 #breeds {
