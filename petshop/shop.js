@@ -31,3 +31,12 @@ function submitForm() {
 // Add event listeners for toggling contact form and form submission
 document.getElementById('contact-form-toggle').addEventListener('click', toggleContactForm);
 document.getElementById('fcf-form-id').addEventListener('submit', submitForm);
+
+const srLeft = ScrollReveal({
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+    })
+    srLeft.reveal('.about-info',{delay: 100})
+    srLeft.reveal('.contact-info',{delay: 100})
