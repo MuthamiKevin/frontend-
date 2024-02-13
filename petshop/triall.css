@@ -403,73 +403,7 @@ ul li {
 .btn-outline-light:hover {
     background-color: var(--brand-01);
 }
-#contact {
-    height: 100vh;
-    padding: 80px 0;
-    background-image: url('contact.jpg');
-    background-color: #747474;
-    color: white;
-}
 
-.fcf-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%; /* Ensure the container spans the full width of its parent */
-    max-width: 100%;
-}
-
-#fcf-form {
-    flex: 1;
-}
-
-.fcf-form-class {
-    max-width: 100%; /* Adjust the maximum width of the form as needed */
-    margin: auto;
-}
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container h2 {
-    color: whitesmoke;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .container p {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 20px; /* Increased margin for spacing */
-  }
-  
-  .container a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .container a:hover {
-    text-decoration: underline;
-  }
-  
-  .container .icon {
-    margin-right: 10px; /* Adjust icon spacing */
-    font-size: 22px; /* Adjust icon size */
-  }
-  
 
 /* Style the form elements */
 .fcf-label {
@@ -552,4 +486,46 @@ footer {
 .contact-info:hover.contact-info i{
     color: #777;
     z-index: 2;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #f0f0f0; /* Lighter background color */
+    padding-block: 40px 60px;
+}
+
+.top-footer p {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.middle-footer .footer-menu {
+    display: flex;
+}
+
+.footer_menu_list {
+    list-style: none;
+}
+
+.footer_menu_list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-inline: 20px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 30px;
+    color: black;
+}
+
+.bottom-footer {
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
 }
