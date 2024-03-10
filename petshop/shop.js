@@ -19,16 +19,10 @@ function toggleContactForm() {
     contactForm.style.display = (contactForm.style.display === 'none' || contactForm.style.display === '') ? 'block' : 'none';
 }
 
-// Function to handle form submission
 function submitForm() {
-    // You can add your form submission logic here
-    // For example, you can send form data to a server using AJAX
-    // Or you can perform form validation before submission
-    // For demonstration purpose, let's just log a message
+    
     console.log('Form submitted!');
 }
-
-// Add event listeners for toggling contact form and form submission
 document.getElementById('contact-form-toggle').addEventListener('click', toggleContactForm);
 document.getElementById('fcf-form-id').addEventListener('submit', submitForm);
 
