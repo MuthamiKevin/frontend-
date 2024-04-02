@@ -1,5 +1,5 @@
 :root {
-    --text-01: #45413E;
+    --text-01: #000000;
     --light-01: #F9F9F9;
     --light-02: #FFFFFF;
     --brand-01: #DB7F67;
@@ -184,6 +184,7 @@ nav > #logo > span {
 .text-container {
     margin-left: 20px;
     text-align: left;
+    
 }
 
 .text-container p {
