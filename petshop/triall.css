@@ -182,14 +182,16 @@ nav > #logo > span {
     margin: 100px auto;
     background:  rgb(214, 213, 213);
     position: relative;
-    width: 90%;
-    max-width: 900px;
-    height: auto;
+    width: 500px;
+    height: 700px;
     border-radius: 16px;
     overflow: hidden;
     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
   }
-
+aboutimage{
+    width:450px;
+    height:700px;
+}
 .text-container {
     margin-left: 20px;
     text-align: left;
