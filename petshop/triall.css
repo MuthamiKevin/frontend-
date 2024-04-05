@@ -157,10 +157,11 @@ nav > #logo > span {
 #home {
     height: 100vh;
     padding: 80px ;
-    background-image: url('about.jpg');
-    background-color: #747474;
+
+   
     color: var(--text-01);
     text-align: center;
+    display: flex;
 }
 
 #home h1 {
@@ -168,12 +169,12 @@ nav > #logo > span {
     margin-bottom: 30px;
     color: var(--brand-01);
 }
-
-.image-container {
+.home.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    background-image: url(about.jpg);
 }
 .card {
     width: 190px;
