@@ -157,8 +157,7 @@ nav > #logo > span {
 #home {
     height: 100vh;
     padding: 80px ;
-
-   
+    gap: 200px;
     color: var(--text-01);
     text-align: center;
     display: flex;
@@ -169,13 +168,16 @@ nav > #logo > span {
     margin-bottom: 30px;
     color: var(--brand-01);
 }
-.home.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    background-image: url(about.jpg);
-}
+.image_container {
+    max-width: 100%; /* Ensures the image container doesn't exceed the width of its parent */
+    height: auto; /* Automatically adjusts the height based on the width */
+  }
+  
+  .image_container img {
+    width: 100%; /* Makes the image fill the width of its container */
+    height: auto; /* Automatically adjusts the height based on the width */
+    display: block; /* Ensures proper display as a block element */
+  }
 .card {
     width: 190px;
     height: 254px;
