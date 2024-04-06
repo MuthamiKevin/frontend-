@@ -169,8 +169,8 @@ nav > #logo > span {
     color: var(--brand-01);
 }
 .image_container {
-    max-width: 100%; /* Ensures the image container doesn't exceed the width of its parent */
-    height: auto; /* Automatically adjusts the height based on the width */
+    max-width: 350px; /* Ensures the image container doesn't exceed the width of its parent */
+    height: 300px; /* Automatically adjusts the height based on the width */
   }
   
   .image_container img {
@@ -216,13 +216,13 @@ nav > #logo > span {
       justify-content: center;
       align-items: center;
       position: relative;
-      width: 100%;
-      height: auto;
+      width: 350px;
+      height: 300px;
     }
   
     .image_container img {
-      width: 100%;
-      height: auto;
+      width: 350px;
+      height: 300px;
     }
   
     .text-container {
