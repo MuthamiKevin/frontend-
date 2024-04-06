@@ -203,26 +203,37 @@ nav > #logo > span {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
-/* Optional: Add responsive styles for smaller screens */
-@media (max-width: 768px) {
-    #home {
-        padding: 60px 20px;
+/* Default styles for the text container */
+.text-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .image_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: auto;
     }
-
-    #home h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
+  
+    .image_container img {
+      width: 100%;
+      height: auto;
     }
-
-    .image-container {
-        flex-direction: column;
-    }
-
+  
     .text-container {
-        margin: 20px 0;
+      background-image: url('about.jpg'); /* Set the image as the background */
+      background-size: cover; /* Cover the entire container with the background image */
+      background-position: center; /* Center the background image */
+      padding: 40px; /* Adjust padding for better readability */
+      color: #fff; /* Set text color to white */
     }
-}
+  }
+  
 #services {
     padding: 80px 0;
     background-image: url('services.jpg');
